@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input type="range" oninput="setVolume(this.value)" min="0" max="1" step="0.01" value="1">
+        <div class="sound-button-wrapper">
+            <div class="sound-button" onclick="playAudio('sounds/spook.mp3', 0.6)", data-sound-keypress="KeyQ">
+                <div class="sound-button-label">IMovie Suspense Sting</div>
+            </div>
+            <div class="sound-button" onclick="playAudio('sounds/vineboom.mp3', 0.6)", data-sound-keypress="KeyW">
+                <div class="sound-button-label">Vine Boom</div>
+            </div>
+            <div class="sound-button" onclick="playAudio('sounds/laughtrack.mp3', 0.5)", data-sound-keypress="KeyE">
+                <div class="sound-button-label">Laugh Track</div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
