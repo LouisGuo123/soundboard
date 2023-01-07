@@ -4,7 +4,7 @@
     width: 150px;
     height: 150px;
     background-color: green;
-    font: lighter 16px "Arial";
+    font: none 16px "Arial";
     text-align: center;
     user-select: none;
     justify-content: center;
